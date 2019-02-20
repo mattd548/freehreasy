@@ -1,0 +1,99 @@
+body {
+    background: #2193b0;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #6dd5ed, #2193b0);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #6dd5ed, #2193b0);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    background: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/HPOKFbR/simple-blue-stacked-area-chart-infographics-animation-as-technology-business-science-stats-or-data-analysis-background_bkofs0qv__F0003.png");
+    /* background: url(bg.jpg); */
+
+    background-size: cover;
+    background-position: center;
+       color: #e61a1a;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    /* overflow: hidden; */
+}
+
+html {
+    height: 100%;
+}
+
+div.container {
+    width: 80%;
+}
+
+#title {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 45px;
+    padding-bottom: 7%;
+}
+
+#label {
+    font-size: 35px;
+    color: #fff;
+    /* text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px blue, 0 0 10px blue, 0 0 10px blue, 0 0 10px blue, 0 0 10px blue; */
+}
+
+#content {
+    /* font-variant: small-caps; */
+    font-weight: normal;
+    font-family: 'Audiowide', cursive;
+    text-align: center;
+    padding: 170px 0;
+    margin: 0 auto;
+    width: 400px;
+    text-shadow: 0 4px 3px rgba(0, 0, 0, 0.2), 0 8px 13px rgba(0, 0, 0, 0.1), 0 18px 23px rgba(0, 0, 0, 0.1);
+    /* x-offset, y-offset, blur radius, color. */
+}
+
+div#username {
+    margin-top: 5px;
+}
+
+#email {
+    text-align: center;
+    margin: 0 auto;
+    width: 320px;
+}
+
+
+div#pass {
+    margin-top: 15px;
+    width: 100%;
+}
+
+#password {
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+}
+
+div#button {
+    text-align: center;
+    margin-top: 15px;
+}
+
+#bt {
+    width: 30%;
+    margin-bottom: 3%;
+}
+
+#forgot {
+    font-variant: small-caps;
+    font-size: 15px;
+    font-weight: bold;
+    color: #32325d;
+    ;
+}
+
+input:focus {
+    border: 2px solid dodgerblue;
+}

@@ -1,0 +1,225 @@
+body {
+    background: #0F2027;
+    /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027); */
+    /* Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #2C5364, #203A43, #0F2027); */
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+   background: url("A_Virus_Named_TOM_Background_Blueprints.jpg");
+    /* background: url("https://images.alphacoders.com/543/543449.jpg"); */
+
+    background-size: cover;
+    background-position: center;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* .image-upload>input {
+    visibility: hidden;
+    width: 0;
+    height: 0
+} */
+
+html {
+    height: 70%;
+}
+
+div.jumbotron {
+    margin: 150px auto;
+    width: 85%;
+    /* height: 70%; */
+    background: rgba(238, 238, 238, 0.9);
+}
+
+img {
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-left: 0px;
+    width: 85%;
+    height: 80%;
+    pointer-events: none;
+}
+
+#inf {
+    /* width: 100%; */
+    /*height: 275px;*/
+    /*margin-top: 0px;*/
+    /*padding-right: 4.5%;*/
+    margin: 0 auto;
+    text-align: center;
+    /*margin-bottom: 0px;*/
+}
+
+.name {
+    padding-right: 10px;
+    margin-left: 0px;
+    text-align: center;
+    font-size: 26px;
+    padding-bottom: 2%;
+}
+
+#info {
+    /* width: 100%; */
+    height: 275px;
+    margin-top: 3.5%;
+    border-radius: 1%;
+    border: rgba(92, 78, 69, 0.705) outset 3px;
+    overflow: auto;
+    margin-bottom: 5px;
+}
+
+.desc {
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 7px;
+}
+
+
+/* ul.dropdown-menu {
+    margin-left: 25%;
+    margin-right: auto;
+    width: 5em;
+} */
+
+.dropdown {
+    text-align: center;
+}
+
+#dropdownMenu {
+    margin-top: 5px;
+    border: rgba(92, 78, 69, 0.705) outset 2px;
+    background: #eee;
+    text-shadow: 0 4px 3px rgba(0, 0, 0, 0.1), 0 8px 13px rgba(0, 0, 0, 0.0), 0 18px 23px rgba(0, 0, 0, 0.0);
+    outline: 0;
+}
+
+ul.dropdown-menu.dropdown-menu-right {
+    right: 0;
+    left: 0;
+    width: 50px;
+    height: auto;
+}
+
+#dropdownMenu:active {
+    /* width: 20%; */
+    border: rgba(92, 78, 69, 0.705) inset 2px;
+    background: #fff;
+}
+
+li {
+    text-align: center;
+}
+
+#edit {
+    border: none;
+    color: black;
+    font-size: 15px;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    /* height: 50%; */
+    font-weight: normal;
+    font-family: 'Audiowide', cursive;
+    background: transparent;
+    text-shadow: 0 4px 3px rgba(0, 0, 0, 0.1), 0 8px 13px rgba(0, 0, 0, 0.0), 0 18px 23px rgba(0, 0, 0, 0.0);
+}
+
+#delete {
+    border: none;
+    color: black;
+    font-size: 15px;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    /* height: 50%; */
+    font-weight: normal;
+    font-family: 'Audiowide', cursive;
+    background: transparent;
+    text-shadow: 0 4px 3px rgba(0, 0, 0, 0.1), 0 8px 13px rgba(0, 0, 0, 0.0), 0 18px 23px rgba(0, 0, 0, 0.0);
+}
+
+#edit:hover {
+    color: #0083B0;
+}
+
+#delete:hover {
+    color: red;
+}
+
+#content {
+    /* text-align: center; */
+    text-shadow: 0 4px 3px rgba(0, 0, 0, 0.1), 0 8px 13px rgba(0, 0, 0, 0.0), 0 18px 23px rgba(0, 0, 0, 0.0);
+    /* x-offset, y-offset, blur radius, color. */
+    margin: 0 auto;
+    font-weight: normal;
+    font-family: 'Audiowide', cursive;
+}
+
+input {
+    padding-bottom: 10px;
+    border-width: 0px;
+    border: none;
+    background-color: #eee;
+    text-shadow: 0 4px 3px rgba(0, 0, 0, 0.1), 0 8px 13px rgba(0, 0, 0, 0.0), 0 15px 13px rgba(0, 0, 0, 0.0);
+    width: 100%;
+    background: transparent;
+}
+
+input:focus {
+    display: inline;
+    outline: none;
+}
+
+#save {
+    color: #0083B0;
+    font-size: 30px;
+    border-width: 0px;
+    border: none;
+    background-color: #eee;
+    background: transparent;
+    display: none;
+    /*margin-left: 45%;*/
+}
+
+.inputColor {
+    background-color: #fff;
+}
+
+.line {
+    width: 95%;
+    border-top: 1px solid #eee;
+    border-bottom: 1px inset rgba(92, 78, 69, 0.705);
+    padding-top: 0.1%;
+
+}
+
+hr {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding-top: 0.1%;
+}
+
+/*::-webkit-input-placeholder {*/
+/*    text-align: center;*/
+/*}*/
+
+/*:-moz-placeholder {*/
+    /* Firefox 18- */
+/*    text-align: center;*/
+/*}*/
+
+/*::-moz-placeholder {*/
+    /* Firefox 19+ */
+/*    text-align: center;*/
+/*}*/
+
+/*:-ms-input-placeholder {*/
+/*    text-align: center;*/
+/*}*/

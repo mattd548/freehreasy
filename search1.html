@@ -1,0 +1,54 @@
+<?php
+session_start();
+ if(!$_SESSION['email']) {
+    header("Location:index.php");
+    exit();
+ }
+?>
+
+
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>HR-Easy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="assets/css/employees.css" /> -->
+    <!-- <script type="text/javascript" src="assets/js/lib/jquery-3.3.1.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,500i,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Audiowide|Orbitron" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="employees.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="container">
+            <h2 id="innerAdd" class="container"><a href="addEmp.php"><i id="add" class="fas fa-user-plus"></i></a></h2>
+        </div>
+
+         
+        <div class="inner-addon left-addon">
+            <i class="glyphicon glyphicon-search"></i>
+            <input class="profile.php" type ="text" id ="search"  placeholder="Search for employees..." onkeyup="search(this.value)">
+            <div id ="results"></div>
+        </div>
+           
+
+    <!-- <script type="text/javascript" src="assets/js/employees.js"></script> -->
+    <script type="text/javascript" src="employees.js"></script>
+</body>
+
+</html>

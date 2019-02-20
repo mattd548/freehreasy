@@ -1,0 +1,299 @@
+body {
+    outline: none;
+
+    background: #0F2027;
+
+    background-size: cover;
+    background-position: center;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    font-family: 'Audiowide', cursive;
+}
+
+html {
+    height: 70%;
+}
+
+#header {
+    /* width: 516px; */
+    width: 100%;
+    border-radius: 9px;
+    background: rgba(92, 78, 69, 0.705);
+    color: #ccc;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    /* margin-left: -13px; */
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 34px;
+    font-weight: normal;
+    text-align: center;
+}
+
+#search {
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: 470px;
+    border-radius: 7px;
+}
+
+#periodStartDate {
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-bottom: 7px;
+    width: 200px;
+    border-radius: 6px;
+}
+
+#submitBtn {
+    background: transparent;
+    width: 100%;
+    border: 0;
+}
+
+img {
+    border-radius: 50%;
+    margin-top: -11px;
+    margin-left: 10px;
+    margin-right: 20px;
+    width: 45px;
+    height: 45px;
+
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+}
+
+#content {
+    border-radius: 3%;
+    width: 525px;
+    height: 590px;
+    margin: 0px auto;
+    border: rgba(92, 78, 69, 0.705) outset 3px;
+    /* background: #f7f7f7; */
+    background: rgba(238, 238, 238, 0.9);
+    /* offset-x | offset-y | blur-radius | color */
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+
+    font-family: 'Audiowide', cursive;
+}
+
+#results {
+    list-style: none;
+    padding: 0 0;
+    width: 475px;
+    height: 470px;
+    margin: 10px auto;
+    overflow: auto;
+}
+
+#results li {
+    border-radius: 7px;
+    font-size: 17px;
+    background: rgba(255, 255, 255, 0.904);
+    height: 65px;
+    line-height: 30px;
+    color: #666;
+    border: 1px rgba(92, 78, 69, 0.705) outset;
+}
+
+#add:hover {
+    color: white;
+}
+
+#results span {
+    text-align: center;
+    margin-top: 15px;
+    height: 40px;
+    margin-left: 0px;
+    margin-right: 20px;
+    text-align: right;
+    color: black;
+    width: 0px;
+    display: inline-block;
+    opacity: 0;
+    transition: 0.2s linear;
+    /* For other browser support */
+    -webkit-transition: 0.2s linear;
+    -moz-transition: 0.2s linear;
+}
+
+#results span i {
+    text-align: center;
+    font-size: 30px;
+    color: #C0C0C0;
+}
+
+#results span i:hover {
+    color: rgba(92, 78, 69, 0.8);
+}
+
+#results li:hover span {
+    width: 50px;
+    opacity: 1.0;
+}
+
+td span {
+    outline: none;
+    float: left;
+    margin-top: 0px;
+    height: 5px;
+    margin-left: -10px;
+    margin-right: 10px;
+    text-align: center;
+    color: black;
+    width: 0px;
+    /* display: inline-block; */
+    opacity: 0;
+    transition: 0.2s linear;
+    /* For other browser support */
+    -webkit-transition: 0.2s linear;
+    -moz-transition: 0.2s linear;
+}
+
+span td:hover {
+    color: rgba(92, 78, 69, 0.8);
+}
+
+td:hover span {
+    margin-left: -8px;
+    margin-right: 40px;
+    width: 30px;
+    opacity: 1.0;
+}
+
+span button {
+    text-align: center;
+    outline: none;
+    color: rgb(13, 101, 255);
+    background: transparent;
+    /* width: 90%; */
+    border: 0;
+}
+
+td.id {
+    float: left;
+}
+
+button i {
+    text-align: center;
+    font-size: 15px;
+}
+
+#results i {
+    text-align: center;
+    color: rgb(13, 101, 255);
+}
+
+#line {
+    margin-top: 30px;
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+button.btn.btn-info.btn-sm {
+    outline: none;
+}
+
+
+#tableContent {
+    margin-top: 15px;
+    border: 0px outset #c0c0c0;
+    border-radius: 5px;
+    overflow: auto;
+    height: 283px;
+    font-family: 'Audiowide', cursive;
+}
+
+input[type=date] {
+    text-align: center;
+}
+
+hr {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding-top: 0.1%;
+}
+
+#save,
+#saveE {
+    color: #ccc;
+    font-size: 30px;
+    /* font-weight: bolder; */
+    border-width: 0px;
+    border: none;
+    background-color: #eee;
+    background: transparent;
+    /* margin-left: 45%; */
+    margin-bottom: -5px;
+}
+
+#save:hover {
+    color: #eee;
+}
+
+#save:active {
+    color: #fff;
+}
+
+
+/* From https://stackoverflow.com/questions/18838964/add-bootstrap-glyphicon-to-input-box */
+/* enable absolute positioning */
+.inner-addon {
+    position: relative;
+}
+
+/* style icon */
+.inner-addon .glyphicon {
+    position: absolute;
+    padding: 10px;
+    pointer-events: none;
+}
+
+/* align icon */
+.left-addon .glyphicon {
+    left: 10px;
+}
+
+.right-addon .glyphicon {
+    right: 0px;
+}
+
+/* add padding  */
+.left-addon input {
+    padding-left: 30px;
+}
+
+.right-addon input {
+    padding-right: 30px;
+}
+
+/* From https://stackoverflow.com/questions/7381446/center-html-input-text-field-placeholder */
+/* center placeholders */
+::-webkit-input-placeholder {
+    text-align: center;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    text-align: center;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    text-align: center;
+}
+
+:-ms-input-placeholder {
+    text-align: center;
+}

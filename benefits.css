@@ -1,0 +1,190 @@
+#body {
+    outline: none;
+
+    /* background-color: #0F2027; */
+
+    background-image: url("hm8md.png");
+    background-repeat: no-repeat;
+    background-color: #000;
+
+    background-size: contain;
+    background-position: center;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+    font-family: 'Audiowide', cursive;
+}
+
+html {
+    /*height: 70%;*/
+     height: 100%; 
+}
+
+#header {
+    border: 3px inset #C0C0C0;
+    border-radius: 5px;
+    background: #fff;
+    color: #000;
+}
+
+#add {
+    font-size: 30px;
+    color: rgb(228, 231, 235);
+}
+
+#add:hover {
+    color: rgb(220, 24, 100);
+}
+
+#add:active {
+    color: rgb(30, 62, 112);
+}
+
+#benefitToDelete {
+    text-align: center;
+    margin-left: 28%;
+    margin-top: -5px;
+    margin-bottom: 10px;
+    width: 40%;
+}
+
+.button {
+    outline: none;
+    color: rgb(220, 24, 100);
+    background: transparent;
+    width: 90%;
+    border: 0;
+}
+
+#content {
+    border: 0px outset #c0c0c0;
+    border-radius: 5px;
+    overflow: auto;
+    height: 380px;
+    font-family: 'Audiowide', cursive;
+}
+
+h1 {
+    background: #2980b9;
+    color: white;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+body h1 {
+    background: rgba(15, 140, 224, 0.712);
+    font-size: 32px;
+}
+
+td span {
+    text-align: center;
+    margin-top: -10px;
+    height: 15px;
+    margin-left: -20px;
+    margin-right: 20px;
+    text-align: right;
+    color: black;
+    width: 0px;
+    display: inline-block;
+    opacity: 0;
+    transition: 0.2s linear;
+    /* For other browser support */
+    -webkit-transition: 0.2s linear;
+    -moz-transition: 0.2s linear;
+}
+
+span td:hover {
+    color: rgba(92, 78, 69, 0.8);
+}
+
+td:hover span {
+    margin-left: 0px;
+    width: 35px;
+    opacity: 1.0;
+}
+
+#line {
+    margin-top: 30px;
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+button.btn.btn-info.btn-sm {
+    outline: none;
+}
+
+#search {
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: 470px;
+    border-radius: 7px;
+}
+
+#save {
+    color: rgb(110, 20, 20);
+    font-size: 30px;
+    /* font-weight: bolder; */
+    border-width: 0px;
+    border: none;
+    background-color: #eee;
+    background: transparent;
+    /* margin-left: 45%; */
+    margin-bottom: -5px;
+}
+
+#save:hover {
+    color: rgb(220, 24, 100);
+}
+
+#save:active {
+    color: rgb(30, 62, 112);
+}
+
+hr {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding-top: 0.1%;
+}
+
+
+/* From https://stackoverflow.com/questions/18838964/add-bootstrap-glyphicon-to-input-box */
+/* enable absolute positioning */
+.inner-addon {
+    position: relative;
+}
+
+/* style icon */
+.inner-addon .glyphicon {
+    position: absolute;
+    padding: 10px;
+    pointer-events: none;
+}
+
+/* align icon */
+.left-addon .glyphicon {
+    left: 10px;
+}
+
+.right-addon .glyphicon {
+    right: 0px;
+}
+
+/* add padding  */
+.left-addon input {
+    padding-left: 30px;
+}
+
+.right-addon input {
+    padding-right: 30px;
+}

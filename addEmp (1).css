@@ -1,0 +1,181 @@
+body {
+    background: #0F2027;
+    /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027); */
+    /* Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #2C5364, #203A43, #0F2027); */
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    background: url("A_Virus_Named_TOM_Background_Blueprints.jpg");
+    /*background: url("https://images.alphacoders.com/543/543449.jpg"); */
+
+    background-size: cover;
+    background-position: center;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.image-upload>input {
+    visibility: hidden;
+    width: 0;
+    height: 0
+}
+
+html {
+    height: 70%;
+}
+
+h1 {
+    text-align: center;
+}
+
+div.jumbotron {
+    margin: 25px auto;
+    width: 100%;
+    min-height: 670px;
+    background: rgba(238, 238, 238, 0.9);
+    border: rgba(92, 78, 69, 0.705) outset 3px;
+    font-family: 'Audiowide', cursive;
+    /* font-family: 'Orbitron', sans-serif; */
+    font-weight: bold;
+}
+
+img {
+    text-align: center;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-left: 0px;
+    width: 25%;
+    height: 25%;
+    pointer-events: none;
+}
+
+.desc {
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 7px;
+}
+
+label {
+    margin-left: 5px;
+}
+
+input {
+    padding-bottom: 10px;
+    border-width: 0px;
+    border: none;
+    background-color: #eee;
+    text-shadow: 0 4px 3px rgba(0, 0, 0, 0.1), 0 8px 13px rgba(0, 0, 0, 0.0), 0 15px 13px rgba(0, 0, 0, 0.0);
+    width: 100%;
+    /* background: transparent; */
+    border-radius: 7px;
+    font-family: 'Audiowide', cursive;
+}
+
+input:focus {
+    display: inline;
+    outline: none;
+}
+
+#save {
+    color: rgb(92, 78, 69);
+    font-size: 40px;
+    /* font-weight: bolder; */
+    border-width: 0px;
+    border: none;
+    background-color: #eee;
+    background: transparent;
+    /*margin-left: 45%;*/
+    margin-bottom: -5px;
+}
+
+#save:hover {
+    color: rgb(35, 35, 53);
+}
+
+#save:active {
+    color: rgba(92, 78, 69, 0.705);
+    /* color: rgb(56, 56, 92); */
+}
+
+.inputColor {
+    background-color: #fff;
+}
+
+#dob,
+#gender {
+    margin: auto;
+}
+
+svg {
+    margin-top: 10px;
+    width: 40%;
+}
+
+path {
+    fill: rgba(92, 78, 69, 0.705);
+}
+
+path:hover {
+    fill: rgb(35, 35, 53);
+}
+
+path:active {
+    fill: #eee;
+}
+
+.line {
+    width: 95%;
+    border-top: 1px solid #eee;
+    border-bottom: 1px inset rgba(92, 78, 69, 0.705);
+    padding-top: 0.1%;
+
+}
+
+
+#SSNeye {
+    /* cursor: pointer; */
+    color: black;
+}
+
+#SSNeye:hover {
+    color: gray;
+}
+
+#SSNeye:active {
+    color: rgba(92, 78, 69, 0.705);
+}
+
+.inner-addon {
+    position: relative;
+}
+
+/* style icon */
+.inner-addon .glyphicon {
+    position: absolute;
+    padding: 10px;
+    pointer-events: none;
+}
+
+/* align icon */
+.left-addon .glyphicon {
+    left: 10px;
+}
+
+.right-addon .glyphicon {
+    right: 0px;
+}
+
+/* add padding  */
+.left-addon input {
+    padding-left: 30px;
+}
+
+.right-addon input {
+    padding-right: 30px;
+}

@@ -1,0 +1,232 @@
+body {
+    outline: none;
+
+    /* From https://uigradients.com/#BoraBora */
+    background: #00c6ff;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0072ff, #00c6ff);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    background: url("A_Virus_Named_TOM_Background_Blueprints.jpg");
+     /*background: url("https://images.alphacoders.com/543/543449.jpg"); */
+
+    background-size: cover;
+    background-position: center;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+html {
+    height: 70%;
+}
+
+#add {
+    margin-top: 3%;
+    margin-left: 93%;
+    color: rgba(238, 238, 238, 0.7);
+}
+
+#innerAdd {
+    padding-top: 5%;
+    width: 447px;
+}
+
+#header {
+    margin-top: 2px;
+    margin-left: -12px;
+    width: 440px;
+    border-radius: 9px;
+    text-align: center;
+}
+
+#search {
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: 395px;
+    border-radius: 7px;
+}
+
+#submitBtn {
+    background: transparent;
+    width: 100%;
+    border: 0;
+}
+
+/* img {
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-left: 4px;
+    width: 100%;
+    height: 100%;
+} */
+
+img {
+    border-radius: 50%;
+    margin-top: 11px;
+    margin-left: 10px;
+    width: 47px;
+    height: 47px;
+
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+}
+
+#content {
+    border-radius: 3%;
+    width: 450px;
+    height:557px;
+    margin: 0px auto;
+    border: rgba(92, 78, 69, 0.705) outset 3px;
+    /* background: #f7f7f7; */
+    background: rgba(238, 238, 238, 0.9);
+    /* offset-x | offset-y | blur-radius | color */
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+
+    font-family: 'Audiowide', cursive;
+}
+
+#results {
+    list-style: none;
+    padding: 0 0;
+    width: 400px;
+    height:420px;
+    margin: 10px auto;
+    overflow: auto;
+}
+
+#results li {
+    border-radius: 7px;
+    font-size: 17px;
+    background: rgba(255, 255, 255, 0.904);
+    height: 70px;
+    line-height: 40px;
+    color: #666;
+    border: 1px rgba(92, 78, 69, 0.705) outset;
+}
+
+/* li:nth-child(2n) {
+    background: rgba(238, 238, 238, 0.0);
+} */
+
+
+#add:hover {
+    color: white;
+}
+
+h1 {
+    background: #2980b9;
+    color: white;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: normal;
+    /* or */
+    /* font-weight: 400; */
+}
+
+body h1 {
+    background: rgba(15, 140, 224, 0.712);
+    font-size: 36px;
+}
+
+/* #toggle-form {
+    float: right;
+    opacity: 1;
+} */
+
+#results span {
+    height: 40px;
+    margin-right: 20px;
+    text-align: center;
+    color: black;
+    width: 0px;
+    display: inline-block;
+    opacity: 0;
+    transition: 0.2s linear;
+    /* For other browser support */
+    -webkit-transition: 0.2s linear;
+    -moz-transition: 0.2s linear;
+}
+
+#results li:hover span {
+    width: 52px;
+    opacity: 1.0;
+}
+
+#results i {
+    color: rgba(0, 0, 0, 0.9);
+}
+
+#line {
+    margin-top: 30px;
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+hr {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding-top: 0.1%;
+}
+
+/* From https://stackoverflow.com/questions/18838964/add-bootstrap-glyphicon-to-input-box */
+/* enable absolute positioning */
+.inner-addon {
+    position: relative;
+}
+
+/* style icon */
+.inner-addon .glyphicon {
+    position: absolute;
+    padding: 10px;
+    pointer-events: none;
+}
+
+/* align icon */
+.left-addon .glyphicon {
+    left: 10px;
+}
+
+.right-addon .glyphicon {
+    right: 0px;
+}
+
+/* add padding  */
+.left-addon input {
+    padding-left: 30px;
+}
+
+.right-addon input {
+    padding-right: 30px;
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    text-align: center;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    text-align: center;
+}
+
+:-ms-input-placeholder {
+    text-align: center;
+}
