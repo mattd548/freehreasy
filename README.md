@@ -4,6 +4,6 @@ multiple departments, assign employees to departments, and manage employee benef
 that a company could use to deal with employee benefits and pay. 
 
 # Installion
-No need to install any software as it's a website that is up and runnning at [HR easy](www.freehreasy.com)
+No need to install any software as it's a website that is up and runnning at [HR easy](https://www.freehreasy.com/)
 
 # Screenshots
