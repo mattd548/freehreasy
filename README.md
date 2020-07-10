@@ -12,3 +12,5 @@ No need to install any software as it's a website that is up and runnning at [HR
 ![](screenshot/employee.PNG)
 ![](screenshot/new_employee.PNG)
 ![](screenshot/departments.PNG)
+![](screenshot/benefits.PNG)
+![](screenshot/pay.PNG)
