@@ -7,3 +7,8 @@ that a company could use to deal with employee benefits and pay.
 No need to install any software as it's a website that is up and runnning at [HR easy](https://www.freehreasy.com/)
 
 # Screenshots
+![](screenshot/homescreen.PNG)
+![](screenshot/main_screen.PNG)
+![](screenshot/employee.PNG)
+![](screenshot/new_employee.PNG)
+![](screenshot/departments.PNG)
